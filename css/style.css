@@ -1,0 +1,430 @@
+/*Start Globel assort*/
+
+*{font-family: Arial,Tahoma;}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 2;
+}
+
+.main-color{color: #93ca3a;}
+
+.white-color{color: #fff;}
+
+button{
+    background-color: #93ca3a;
+    padding: 15px 80px;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #93ca3a;
+}
+
+a{text-decoration: none;}
+
+.over-flow{overflow: hidden;}
+
+.float-left{float: left;}
+
+/*End Globel assort*/
+
+/*Start navbar*/
+
+header {position: relative;}
+
+header nav{
+    width: 100%;
+    z-index: 4;
+    position: fixed;
+    padding: 10px;
+}
+
+header nav h1{
+    font-weight: normal;
+    font-size: 35px;
+    margin: 0;
+    -webkit-text-shadow: 4px 4px 5px #000;
+    -moz-text-shadow: 4px 4px 5px #000;
+    -o-text-shadow: 4px 4px 5px #000;
+    text-shadow: 4px 4px 5px #000;
+}
+
+header nav h1 span{color:#333;}
+
+header nav ul{
+    list-style: none;
+    float: right;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header nav ul li a{color: #999;}
+
+header nav ul li a:hover,header nav ul .active a{color: #93ca3a;}
+
+/*End navbar*/
+
+/*Start header*/
+
+header header .current{position: relative;}
+
+header header .current img{
+    width: 100%;
+    display: block;
+}
+
+header header .sliders > div{display: none;}
+
+header header .sliders .current{display: block;}
+
+header header .sliders .current .first{top:25%;}
+
+header header .sliders .current section{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 35%;
+    z-index: 3;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+header header div section h1:first-child{font-weight: normal;}
+
+/*End header*/
+
+/*Start service*/
+
+.service{
+    padding-bottom: 80px;
+    padding-top: 80px;
+    color:#333;
+}
+
+.service .item{
+    width: 30%;
+    margin-right: 3%;
+}
+
+.service .item i{
+    margin-top: 15px;
+    width: 20%;
+    font-size: 40px;
+}
+
+.service .item section{width: 75%;}
+
+.service .item section h3{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #343434;
+    margin-bottom: 5px;
+}
+
+.service .item section p{
+    line-height: 1.5;
+    margin: 0;
+}
+
+.service .item section p a:hover{text-decoration: underline;}
+
+.creative{
+    position: relative;
+    margin: 40px 0;
+}
+
+.creative img{
+    width: 100%;
+    z-index: 1;
+    display: block;
+}
+
+.creative .info{
+    position: absolute;
+    left:15%;
+    top:0;
+    z-index: 3;
+    margin-top: 70px;
+    width: 60%;
+}
+
+.creative .info h1{font-size: 40px;}
+
+.creative .info h2 span{
+    background-color: #fff;
+    color:#000;
+    padding: 7px 5px;
+}
+
+.creative .info p{
+    line-height: 1.6;
+    margin-top: 40px;
+}
+
+/*End service*/
+
+/*Start about*/
+
+#about{margin: 100px;}
+
+#about .info,#about .progress{width: 48%;}
+
+#about .info{margin-right: 4%;}
+
+#about .info h1{font-size: 40px;}
+
+#about .info h3,#about .info p{color: #3a3a3a;}
+
+#about .progress h4{
+    font-weight: normal;
+    color: #3a3a3a;
+    margin: 10px 0;
+}
+
+#about .progress{margin-top: 30px;}
+
+#about .progress div{
+    background-color: #93ca3a;
+    padding: 2px;
+    border-radius: 5px;
+    text-align: right;
+    font-weight: bold;
+}
+
+/*End about*/
+
+/*Start team*/
+
+#team{text-align: center;}
+
+#team .player{
+    width: 30%;
+    margin-right: 3%;
+}
+
+#team .player .image{position: relative;}
+
+#team .player img{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+#team .player .image .overlay{
+    background-color: transparent;
+    transition: all .5s ease-in-out;
+}
+
+#team .player .image:hover .overlay{
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+#team .player div p:first-child{font-weight: bold;}
+
+#team .player div p{color:#333;}
+
+#team .player div i{
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+.sign-up .info{
+    padding: 0 50px;
+    text-align: center;
+}
+
+.sign-up button{
+    font-weight: normal;
+    padding: 15px 50px;
+    text-transform: capitalize;
+}
+
+.sign-up input[type="text"]{
+    padding: 15px;
+    background: none;
+    border: 1px solid #fff;
+    margin: 20px 20px;
+    width: 35%;
+}
+
+.sign-up input[type="text"]::placeholder{color:#fff;}
+
+/*End team*/
+
+/*Start Pricing*/
+
+#pricing{margin: 100px 80px;}
+
+#pricing .item{
+    border:1px solid #ddd;
+    padding: 40px;
+}
+
+#pricing .item{
+    width: 18%;
+    text-align: center;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+#pricing .item:hover{background-color: #111;}
+
+#pricing .item:hover p{color:#fff;}
+
+#pricing > h1,
+#pricing .item p{
+    text-align: center;
+    color:#6a6a6a;
+    margin: 50px 0;
+}
+
+#pricing .item h1{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+#pricing p{font-size: 14px;}
+
+#pricing button{
+    padding: 5px 30px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+/*End Pricing*/
+
+/*Start Portfolio*/
+
+#portfolio{text-align: center;}
+
+#portfolio ul{list-style: none;}
+
+#portfolio ul li{
+    padding: 10px;
+    display: inline-block;
+    border:1px solid #eee;
+    border-radius: 4px;
+    color:#aaa;
+    cursor: pointer;
+}
+
+#portfolio .mix{
+    width: 30%;
+    margin-right: 3%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#portfolio .mix .overlay{
+    display: none;
+    background-color: rgba(0,0,0,0.8);
+}
+
+#portfolio .mix:hover .overlay{display: block;}
+
+#portfolio .mix img{
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+
+#portfolio .mix .overlay .info{
+    margin-top: 15%;
+    color:#ccc;
+}
+
+#portfolio .mix .overlay .info i{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/*End Portfolio*/
+
+/*Start Contact*/
+
+#contact{position: relative;}
+
+#contact .item:not(:last-child){
+    width: 25%;
+    margin-top: 70px;
+}
+
+#contact .item i{padding: 10px 15px;}
+
+#contact .item:first-child i:hover, #contact input[type = "submit"]{background-color: #fff;}
+
+#contact img{display: block;}
+
+#contact .item:last-child{
+    width: 45%;
+    margin-top: 70px;
+    position: relative;
+}
+
+#contact input[type = "text"], #contact textarea{
+    padding: 15px;
+    margin: 0 20px 10px 0;
+    border-radius: 4px;
+    width: 40%;
+    border: none;
+}
+
+#contact textarea{
+    width: 90%;
+    height: 100px;
+}
+
+#contact input[type = "submit"]{
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: bold;
+    color:#333;
+}
+
+#contact input[type = "submit"]:hover{background-color: #93ca3a;}
+
+/*End Contact*/
+
+/*Start footer*/
+
+footer{color:#666;}
+
+footer .icons{
+    float: right;
+    margin-right: 100px;
+    width: 50%;
+    text-align: right;
+}
+
+footer .icons i{
+    margin: 30px 30px 0 0;
+    cursor: pointer;
+}
+
+/*End footer*/
